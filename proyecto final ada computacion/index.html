@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1|W4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzlebhndOJK28anvf" crossorigin="anonymous"/>
+    <title>proyecto ada</title>
+</head>
+
+
+    <main>
+<body>
+  <div class="box1">
+            
+                <div class="box">
+              <div class="column ">
+                <p class="columna" style="background-color: rgb(30, 199, 221);"&nbsp;>Ventas Por Sucursal</p>
+                <table>
+        <tr>
+            <th>Sucursal</th>
+            <th>Total ventas</th>
+        </tr>
+        <tr>
+        <th>centro</th>
+        <th>990</th>
+    </tr>
+
+    <tr>
+    <th>caballito</th>
+    <th>580</th>
+    </tr>
+</table>
+</div>
+ </div>
+
+            <div class="columna">
+                <div class="box">
+              <div class="reportes">
+                
+                <div class="reportes">
+    <table>
+   <tr>
+        <th  style="background-color: rgb(30, 199, 221);"&nbsp;>Reportes</th>
+    </tr>
+    <tr>
+        <th>Productos Estrella Monitor GPRS 3000</th>
+        </tr>
+        <tr>
+        <th>vendedora que mas ingreso genero:Grace</th>
+        
+    </tr>
+</table>
+
+</div>
+</div>
+
+</div>
+              </div>
+            </div>
+          </div>
+
+    
+
+    
+ 
+<div class="caja2">
+    
+    
+    <table class="contenedor3">
+        <tr>
+        <colspan> <length class="space"><th style="background-color: rgb(30, 199, 221);"&nbsp;>Ventas</th></length></colspan>
+        <th style="background-color: rgb(30, 199, 221);"&nbsp;></th>
+        <th style="background-color: rgb(30, 199, 221);"&nbsp;></th>
+        <th style="background-color: rgb(30, 199, 221);"&nbsp;></th>
+        <th style="background-color: rgb(30, 199, 221);"&nbsp;></th>
+        <colspan><th style="background-color: rgb(30, 199, 221);"&nbsp;><button id="open-add-modal-button" id="modal" class="favorite styled" type="button">+ nueva venta</button></th></colspan> 
+
+        </tr>
+        <tr>
+          <th >Fechas</th>
+          <th >vendedora</th>
+          <th >Sucursal</th>
+          <colspan><th >componentes</th></colspan>
+          <th>precio</th>
+          <th>acciones</th>
+         
+        </tr>
+        <tr>
+          <td>04/02/2019</td>
+          <td>Grace</td>
+          <td>centro</td>
+          <td>monitor GPRS 3000- Placa base ASUS 1500</td>
+          <td>$320</td>
+          <td>
+            <button class="btn btn 1"><i class="far fa-trash-alt" id="venta editar"></i></button>
+            <button class="btn btn 2"><i class="fas fa-pencil-alt"id="venta eliminar"></i></button>
+        </td>
+        </tr>
+        <tr>
+          <td>01/01/2019</td>
+          <td>Ada</td>
+          <td>centro</td>
+          <td>Monitor GPRS 3000- Placa base ASUS 1500</td>
+          <td>$320</td>
+          <td>
+            <button class="btn btn 1"><i class="far fa-trash-alt" id="venta editar"></i></button>
+            <button class="btn btn 2"><i class="fas fa-pencil-alt"id="venta eliminar"></i></button>
+          </td>
+        </tr>
+        <tr>
+            <td>02/01/2019</td>
+            <td>grace</td>
+            <td>caballito</td>
+            <td>monitor ASC543 - Placa base MZI</td>
+            <td>$280</td>
+            <td>
+                <button class="btn btn 1"><i class="far fa-trash-alt" id="venta editar"></i></button>
+                <button class="btn btn 2"><i class="fas fa-pencil-alt"id="venta eliminar"></i></button>
+            </td>
+                
+        </tr>
+        <tr>
+            <td>10/01/2019</td>
+            <td>ada</td>
+            <td>centro</td>
+            <td>Monitor ASC 543 - Placa base ASUS 1200</td>
+            <td>$350</td>
+            <td>
+                <button class="btn btn 1"><i class="far fa-trash-alt" id="venta editar"></i></button>
+                <button class="btn btn 2"><i class="fas fa-pencil-alt"id="venta eliminar"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td>12/01/2019</td>
+            <td>grace</td>
+            <td>caballito</td>
+            <td>Monitor GPRS 3000 - Place base ASUS 1200</td>
+            <td>$300</td>
+            <td>
+                <button class="btn btn 1"><i class="far fa-trash-alt" id="venta editar"></i></button>
+                <button class="btn btn 2"><i class="fas fa-pencil-alt"id="venta eliminar"></i></button>
+            </td>
+        </tr>
+   
+      </table>
+     </div>
+ <div id="modal-js-example"class="modal">
+     <div class="modal-background"></div>
+   <div class="modal-content">
+       <div class="box">
+
+       </div>
+   </div>
+   <button class="modal-close is-large" arial-label="close"></button>
+    </div>
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Modal title</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <!-- Content ... -->
+
+          
+
+     
+     
+       <!-- The Modal -->
+       
+ <div id="myModal" class="modal-container">
+         <div class="modal modal-close">
+             <p class="close">X</p>
+         
+          </div>
+       <!-- Modal content -->
+       <div class="modal"id="is-active">
+         <span class="modal">&times;</span>
+         <div class="card">editar Ventas</div>
+         <h2>vendedora</h2>
+         <select name="vendedora">
+             
+             <optgroup label="vendedora">
+                 <option select value="0"></option>
+            <option value="1">...</option> 
+            <option value="2">Grace</option> 
+            <option value="3">Ada</option>
+            <option value="10">Hedy</option> 
+            <option value="11">Sheryl</option>
+         </optgroup> 
+         </select>
+         <select name="OS" size=9>
+            <option selected value="0"> Elige una opción </option>
+                <optgroup label="componentes"> 
+                <option value="1">Monitor GPRS 3000</option> 
+                <option value="2">Motherboard ASUS 1500</option> 
+                <option value="3">Monitor ASC 543</option> 
+                <option value="4">Motherboard ASUS 1200</option> 
+                <option value="5">Motherboard MZI</option> 
+                <option value="6">HDD toyiba</option> 
+                <option value="7">HDD wezter digital</option> 
+                <option value="8">RAM quinston</option> 
+                <option value="9">RAM quinston fury</option> 
+            </optgroup> 
+         </select>
+         <select name="Sucursal">
+            
+             <option select value="0"></option>
+             <optgroup label="sucursales">
+             <option value="1">...</option>
+             <option value="2">Centro</option>
+             <option value="3">Caballito</option>
+            </optgroup>
+        </select>
+        <form action="">
+            <input type="text"
+                   name="fname"
+                   placeholder="Fechas"
+                   text-area="20">
+            </input>
+            
+            <input type="submit" 
+                   value="Submit">
+            </input>
+        </form>
+       </div>
+     
+     </div>  
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Save changes</button>
+      <button class="button">Cancel</button>
+    </footer>
+  </div>
+</div>
+ 
+</main>
+<script src="javascript.0/dom.js"></script>
+<script src="javascript/proyectocontador.js"></script>
+</body>
