@@ -24,7 +24,7 @@ main{
   box-sizing: border-box;
 }
 section{
-  heigth:60%;
+  height:60%;
 }
 .box1{
   display:flex;
@@ -177,10 +177,10 @@ section{
     /*  padding: 20px;
       border: 1px solid #888;
       width: 80%; /* Could be more or less, depending on screen size */
-    }
+    
     
     /* The Close Button */
-    .close {
+    /*.close {
       color: #fff;
       width: 25px;
       height: 25px;
